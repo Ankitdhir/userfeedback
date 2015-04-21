@@ -1,7 +1,8 @@
 User Feedback
 ============
 
-A simple but powerful AngularJS directive that allows you to quickly create feedback / contact us window in any angular page / whole application
+A simple but powerful AngularJS directive that allows you to quickly add a sliding contact us / feedback box on your website. The user feedback can slide out with smooth animation effect when clicking the FEEDBACK link.
+
 
 To see a demo go here: 
 
@@ -23,7 +24,10 @@ var app = angular.module('app', ["userfeedback"]);
 ```html
 <userfeedback title="Feedback" url="http://habilesoft.com/feedback"/>
 ```
-
+on clicking submit userfeedback will post below object
+{name : <username>
+email : <user email>
+messages : <user message>}
 
 ### Description of attributes
 | Attribute        | Description           | Required | Example  |
