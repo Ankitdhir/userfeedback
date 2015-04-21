@@ -4,7 +4,7 @@ User Feedback
 A simple but powerful AngularJS directive that allows you to quickly add a sliding contact us / feedback box on your website. The user feedback can slide out with smooth animation effect when clicking the FEEDBACK link.
 
 
-To see a demo go here: 
+To see a demo go here: http://ankitdhir.github.io/userfeedback/
 
 ###Key Features
 * Show just a title (feedback,connect us etc)
@@ -12,6 +12,10 @@ To see a demo go here:
 * Get user name, email and message 
 * post object to specified url
 
+###Library dependency
+* Angular
+* JQuery
+* Bootstrap
 
 ### Getting Started
 Download the code, and include the userfeedback.js,userfeedback.css files in your page. Then add the userfeedback module to your Angular App file, e.g.
