@@ -5,14 +5,14 @@
  */
 
 angular.module('userfeedback', [] )
-    .directive('userfeedback', function ($parse, $http, $sce, $timeout) {
+    .directive('userfeedback', function ($parse, $http) {
     return {
         restrict: 'EA',
         scope: {
             "title": "@title",
             "url": "@url"
          },
-        template: '<div id="uf_feedback"><div id="uf_title" class="rotate" ng-click="openFeedback()"><h2>'
+        template: '<div id="uf_feedback"><div id="uf_title" class="uf_rotate" ng-click="openFeedback()"><h2>'
 					+'{{title}}'
                     + '</h2></div><div id="uf_content">'
                     + '<form ng-submit="sendFeedback(userFeedback)"><div id="uf_submit_username"><input placeholder="Name" type="text" ng-model="userFeedback.name" class="form-control" required></div>'
