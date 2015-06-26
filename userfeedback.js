@@ -5,7 +5,7 @@
  */
 
 angular.module('userfeedback', [] )
-    .directive('userfeedback', function ($parse, $http) {
+    .directive('userfeedback', ['$parse', '$http',function ($parse, $http) {
     return {
         restrict: 'EA',
         scope: {
@@ -60,5 +60,5 @@ angular.module('userfeedback', [] )
             }
         }
     };
-});
+}]);
 
